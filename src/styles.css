@@ -1,0 +1,87 @@
+:root {
+    --border: 1px solid #FC709B ;
+    --primary-color: #9771F3;
+    --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}    
+
+
+body {
+    margin: 60px auto;
+    width: 800px;
+}
+
+h1, h2, h3, footer {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+}
+.container-home {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 20px;
+}
+
+.link-contact, .link-about {
+ text-decoration: none;
+ text-align: center;
+ border: var(--border);
+ padding: 10px 20px;
+ border-radius: 20px;
+ font-size: 20px;
+ box-shadow: var(--box-shadow);
+}
+
+.link-contact {
+    background: var(--primary-color);
+    color: white;
+}
+
+#return-homepage {
+    display: block;
+    text-align: center;
+}
+
+.link-about {
+    background:white;
+    color: var(--primary-color);
+}
+
+.container-about {
+    display: flex;
+    margin: 30px 0;
+}
+.container-about p {
+    margin: 10px;
+}
+
+p {
+text-align: center;
+border: var(--border);
+box-shadow: var(--box-shadow);
+padding: 20px;
+flex: 1;
+border-radius: 4px;
+font-size: 18px;
+line-height: 1.5;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
