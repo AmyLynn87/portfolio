@@ -50,6 +50,8 @@
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    display: inline-block;
+    margin-bottom: 20px;
   }
   
   .secondary-link {
@@ -87,3 +89,20 @@
     text-decoration: underline;
   }
   
+  @media (max-width: 576px) {
+      h1 {
+          font-size: 50px;
+      }
+      h2 {
+          font-size: 40px;
+      }
+      h3 {
+          font-size: 18px;
+      }
+      .project-images {
+          display: none;
+      }
+      .col-sm-6 {
+          text-align: center;
+      }
+  }
